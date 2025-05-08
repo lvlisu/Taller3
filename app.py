@@ -26,7 +26,7 @@ with tab2:
     sns.boxplot(x = "genero", y = "wage", data=df, ax=ax[0])
     ax[0].set_xlabel("Género")
     ax[0].set_ylabel("Salario")
-    ax[0].set_title("SALARIO - GENERO")
+    ax[0].set_title("SALARIO - GÉNERO")
     sns.scatterplot(x = "educ", y = "wage", data=df, ax=ax[1])
     ax[1].set_xlabel("Educación")
     ax[1].set_ylabel("Salario")
