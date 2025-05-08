@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 df = pd.read_csv("wooldridge.csv")
-st.title("Salario con base a género, experiencia y educacióm")
+st.title("Salario con base a género, experiencia y educación")
 tab1, tab2 = st.tabs(["Análisis Univariado","Análisis Bivariado"])
 
 with tab1:
